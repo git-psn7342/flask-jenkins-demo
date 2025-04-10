@@ -17,8 +17,7 @@ pipeline {
 
         stage('Install dependencies') {
             steps {
-               sh 'export PATH=$PATH:/usr/bin'
-                sh '/usr/bin/pip3 install -r requirements.txt'
+                 sh 'python3 -m pip install -r requirements.txt'
             }
         }
 
