@@ -17,11 +17,8 @@ pipeline {
 
         stage('Install dependencies') {
             steps {
-<<<<<<< HEAD
-                 sh 'python3 -m pip install -r requirements.txt'
-=======
+                 
                 sh 'pip3 install -r requirements.txt'
->>>>>>> 58e8da3 (commit12)
             }
         }
 
