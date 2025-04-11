@@ -3,7 +3,7 @@ pipeline {
 
     environment {
         DEPLOY_USER = 'ubuntu'
-        DEPLOY_HOST = '35.226.235.180'
+        DEPLOY_HOST = '35.232.232.72'
         DEPLOY_KEY = credentials('jenkins-ssh-key')  // SSH key added in Jenkins Credentials
     }
 
@@ -17,7 +17,11 @@ pipeline {
 
         stage('Install dependencies') {
             steps {
+<<<<<<< HEAD
                  sh 'python3 -m pip install -r requirements.txt'
+=======
+                sh 'pip3 install -r requirements.txt'
+>>>>>>> 58e8da3 (commit12)
             }
         }
 
