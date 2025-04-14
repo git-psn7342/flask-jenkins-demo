@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Pull latest code
-cd /home/ubuntu/flask-jenkins-demo || exit
+cd /home/psn992273/flask-jenkins-demo || exit
 git pull origin main
 
 # Install dependencies
