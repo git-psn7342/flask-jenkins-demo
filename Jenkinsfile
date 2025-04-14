@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     environment {
-        DEPLOY_USER = 'ubuntu'
+        DEPLOY_USER = 'psn992273'
         DEPLOY_HOST = '34.45.140.194'
         DEPLOY_KEY = credentials('jenkins-ssh-key')  // SSH key added in Jenkins Credentials
     }
