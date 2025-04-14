@@ -3,7 +3,7 @@ pipeline {
 
     environment {
         DEPLOY_USER = 'ubuntu'
-        DEPLOY_HOST = '35.232.232.72'
+        DEPLOY_HOST = '34.45.140.194'
         DEPLOY_KEY = credentials('jenkins-ssh-key')  // SSH key added in Jenkins Credentials
     }
 
